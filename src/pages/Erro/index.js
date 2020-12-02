@@ -1,9 +1,8 @@
 import React, { Component} from 'react'
-import './style.css'
-import Routes from './routes'
 
 
-class App extends Component{
+
+class Erro extends Component{
   
   constructor(props){
     super(props);
@@ -13,8 +12,8 @@ class App extends Component{
   
   render(){
     return(
-      <div className='app'>
-        <Routes/>
+      <div >
+        <h1>Pagina não encontrada</h1>
       </div>
 
     );
@@ -23,4 +22,4 @@ class App extends Component{
 }
 
 
-export default App;
+export default Erro;
